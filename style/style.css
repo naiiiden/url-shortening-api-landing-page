@@ -334,9 +334,6 @@ main .main_text_wrapper .get_started_link {
 
 .shortened_link_container {
   padding: 1rem 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -351,6 +348,7 @@ main .main_text_wrapper .get_started_link {
           box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   font-size: .9rem;
   text-align: start;
+  display: none;
 }
 
 .shortened_link_container .full_link {

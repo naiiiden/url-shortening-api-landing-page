@@ -28,6 +28,8 @@ document.getElementById("submit").addEventListener("click", (e) => {
         return response.json();
     })
     .then(function(data){
+        document.querySelector(".full_link").textContent = data["originalURL"];
+        document.querySelector(".shortened_link_container").style.display = "flex";
         document.querySelector(".shortened_link").textContent = data.shortURL; 
     })
     document.getElementById("input").value='';

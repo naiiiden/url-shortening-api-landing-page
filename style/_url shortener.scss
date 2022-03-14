@@ -38,7 +38,6 @@
 
 .shortened_link_container {
     padding: 1rem 0;
-    display: flex;
     flex-direction: column;
     width: 85%;
     margin: auto;
@@ -47,6 +46,7 @@
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     font-size: .9rem;
     text-align: start;
+    display: none;
 
     .full_link {
         padding: 0 0 .75rem 0;
