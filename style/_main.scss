@@ -1,0 +1,113 @@
+main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    // padding: 0 1rem 1rem 1rem;
+    width: 85%;
+    margin: auto;
+
+    .hero_image {
+        margin: auto;
+    }
+
+    .main_text_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+        text-align: center;
+
+        h1 {
+            color: $very-dark-blue;
+        }
+
+        p {
+            color: $grayish-violet;
+        }
+
+        .get_started_link {
+            margin-top: .75rem;
+            background: $cyan;
+            padding: .75rem 2rem;
+            border-radius: 5rem;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        padding: 3rem 9rem;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .hero_image {
+            width: 55%;
+            position: relative;
+            left: 10rem;
+            user-select: none;
+        }
+
+        .main_text_wrapper {
+            text-align: start;
+            align-items: start;
+            width: 45%;
+
+            h1 {
+                font-size: 2.75rem;
+                line-height: 3rem;
+            }
+
+            .get_started_link {
+                &:hover {
+                    background: hsl(180, 95%, 63%);
+                    transition: .2s;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    main {
+        .main_text_wrapper {
+            h1 {
+                font-size: 3.75rem;
+                line-height: 4.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    main {
+        .main_text_wrapper {
+            h1 {
+                font-size: 4.35rem;
+                line-height: 5rem;
+            }
+            
+            p {
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    main {
+        .main_text_wrapper {
+            h1 {
+                font-size: 4.95rem;
+                line-height: 6rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
