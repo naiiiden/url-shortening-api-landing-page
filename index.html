@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style/style.css">
   <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
@@ -36,9 +36,19 @@
     <img src="images/illustration-working.svg" alt="" class="hero_image">
   </main>
   
-  Shorten a link here...
-
-  Shorten It!
+  <section class="link_shortener_section">
+    <form class="input_button_wrapper">
+      <input type="url" name="shortener" id="input" placeholder="Shorten a link here...">
+      <input type="submit" id="submit" value="Shorten It!">
+    </form>
+    <span id="message"></span>
+  </section>
+  
+  <div class="shortened_link_container">
+    <span class="full_link"><a>https://www.last.fm/tag/technical+death+metal/albums</a></span>
+    <span class="shortened_link">https://3nob.short.gy/nXyYRr</span>
+    <button class="copy">Copy</button>
+  </div>
 
   Advanced Statistics
 
