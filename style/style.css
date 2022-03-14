@@ -343,6 +343,9 @@ main .main_text_wrapper .get_started_link {
           flex-direction: column;
   width: 85%;
   margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: .5rem;
   -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
           box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -351,7 +354,8 @@ main .main_text_wrapper .get_started_link {
 }
 
 .shortened_link_container .full_link {
-  padding: 0 1rem .75rem 1rem;
+  padding: 0 0 .75rem 0;
+  width: 90%;
   color: #232127;
   overflow: hidden;
   white-space: nowrap;
@@ -360,7 +364,8 @@ main .main_text_wrapper .get_started_link {
 }
 
 .shortened_link_container .shortened_link {
-  padding: .75rem 1rem;
+  padding: .75rem 0;
+  width: 90%;
   color: #2acfcf;
 }
 
@@ -373,7 +378,6 @@ main .main_text_wrapper .get_started_link {
   border-radius: .35rem;
   padding: .5rem;
   width: 90%;
-  margin: auto;
 }
 
 @media screen and (min-width: 1024px) {
@@ -400,38 +404,35 @@ main .main_text_wrapper .get_started_link {
     -webkit-transition: .2s;
     transition: .2s;
   }
-}
-
-.shortened_link_container {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 1rem;
-  font-size: .9em;
-}
-
-.shortened_link_container .full_link {
-  padding: 0;
-  border: none;
-}
-
-.shortened_link_container .shortened_link {
-  margin-left: auto;
-}
-
-.shortened_link_container .copy {
-  width: 7.5rem;
-  margin: 0;
-  cursor: pointer;
-}
-
-.shortened_link_container .copy:hover {
-  background: #47fafa;
-  -webkit-transition: .2s;
-  transition: .2s;
+  .shortened_link_container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1rem;
+    font-size: .9em;
+    gap: 1rem;
+  }
+  .shortened_link_container .full_link {
+    padding: 0;
+    border: none;
+  }
+  .shortened_link_container .shortened_link {
+    width: auto;
+    margin-left: auto;
+  }
+  .shortened_link_container .copy {
+    width: 7.5rem;
+    margin: 0;
+    cursor: pointer;
+  }
+  .shortened_link_container .copy:hover {
+    background: #47fafa;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
 }
 /*# sourceMappingURL=style.css.map */
