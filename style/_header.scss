@@ -71,3 +71,58 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    header {
+        padding: 3rem 9rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        button {
+            display: none;
+        }
+
+        nav {
+            flex-grow: 1;
+
+            .nav-ul {
+                list-style-type: none;
+                display: flex;
+                gap: 2.5rem;
+
+                li:nth-child(1) {
+                    margin-left: 2rem;
+                }
+
+                .push_right {
+                    margin-left: auto;
+                }
+
+                a {
+                    text-decoration: none;
+                    font-weight: 700;
+                    font-size: 1rem;
+                    color: $grayish-violet;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $very-dark-violet;
+                        transition: .2s;
+                    }
+
+                    &.signup_link {
+                        background: $cyan;
+                        color: #fff;
+                        padding: .5rem 1.25rem;
+                        border-radius: 3rem;
+
+                        &:hover {
+                            background: hsl(180, 95%, 63%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
