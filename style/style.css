@@ -587,4 +587,54 @@ main .main_text_wrapper .get_started_link {
     top: 60%;
   }
 }
+
+.boost {
+  margin-top: 7.5rem;
+  background: url("../images/bg-boost-mobile.svg") #3b3054 no-repeat;
+  background-size: 100% 100%;
+  padding: 5rem 2rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.boost h2 {
+  color: #fff;
+}
+
+.boost a {
+  background: #2acfcf;
+  padding: .75rem 2rem;
+  border-radius: 5rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.boost a:hover {
+  background: #47fafa;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+@media screen and (min-width: 1024px) {
+  .boost {
+    padding: 4rem 2rem;
+    background: url("../images/bg-boost-desktop.svg") #3b3054 no-repeat;
+    background-size: 100% 100%;
+    gap: 1.5rem;
+  }
+  .boost h2 {
+    font-size: 2.5rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
