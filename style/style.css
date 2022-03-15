@@ -527,6 +527,7 @@ main .main_text_wrapper .get_started_link {
 
 @media screen and (min-width: 1024px) {
   .statistics {
+    margin: 10rem auto;
     position: relative;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -537,6 +538,12 @@ main .main_text_wrapper .get_started_link {
   }
   .statistics .heading_wrapper {
     width: 500px;
+  }
+  .statistics .heading_wrapper h2 {
+    font-size: 2.5rem;
+  }
+  .statistics .heading_wrapper p {
+    font-size: 1.2rem;
   }
   .statistics .features_wrapper {
     -webkit-box-orient: horizontal;

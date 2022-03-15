@@ -69,12 +69,21 @@
 
 @media screen and (min-width: 1024px) {
     .statistics {
+        margin: 10rem auto;
         position: relative;
         justify-content: center;
         align-items: center;
 
         .heading_wrapper {
             width: 500px;
+
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }   
         }
 
         .features_wrapper {
@@ -84,7 +93,6 @@
             .feature {
                 text-align: start;
                 max-width: 315px;
-                
 
                 &:nth-child(1) {
                     align-self: flex-start;
