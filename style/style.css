@@ -222,6 +222,7 @@ main .main_text_wrapper .get_started_link {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    overflow-x: hidden;
   }
   main .hero_image {
     width: 55%;
