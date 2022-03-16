@@ -16,11 +16,17 @@
         
         #input {
             padding: .75rem .5rem;
-            border: none;
+            border: 2px solid transparent;
             border-radius: .5rem;
 
             &::placeholder {
                 font-family: Poppins;
+            }
+
+            &.error {
+                &::placeholder {
+                    color: $red;
+                }
             }
         }
         

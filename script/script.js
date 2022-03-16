@@ -15,6 +15,13 @@ document.getElementById("submit").addEventListener("click", (e) => {
         "originalURL": link,
         "allowDuplicates":false 
     };
+    if (link == "") {
+        document.querySelector("#input").style.border = "2px solid hsl(0, 87%, 67%)";
+        document.querySelector("#input").classList.add("error");
+    } else if (link !== "") {
+        document.querySelector("#input").classList.remove("error");
+        document.querySelector("#input").style.border = "2px solid transparent";
+    }
     fetch('https://api.short.cm/links/public', {
         method: 'post',
         headers: {
