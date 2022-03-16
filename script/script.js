@@ -42,3 +42,13 @@ document.getElementById("submit").addEventListener("click", (e) => {
     document.getElementById("input").value='';
 });
 
+document.querySelector(".copy").addEventListener("click", () => {
+    let inp = document.createElement("input");
+    document.body.appendChild(inp);
+    inp.value = document.querySelector(".shortened_link").textContent;
+    inp.select();
+    document.execCommand("copy", false);
+    inp.remove();
+});
+
+
