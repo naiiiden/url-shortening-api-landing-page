@@ -253,7 +253,7 @@ img {
   color: hsl(0deg, 87%, 67%);
 }
 .link_shortener_section form #submit {
-  background: hsl(180deg, 66%, 49%);
+  background: #1B8383;
   font-family: inherit;
   color: #fff;
   font-weight: 700;
