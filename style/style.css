@@ -108,7 +108,7 @@ img {
     text-decoration: none;
     font-weight: 700;
     font-size: 1rem;
-    color: hsl(257deg, 7%, 63%);
+    color: #595959;
     cursor: pointer;
   }
   header nav .nav-ul a:hover {
@@ -116,7 +116,7 @@ img {
     transition: 0.2s;
   }
   header nav .nav-ul a.signup_link {
-    background: hsl(180deg, 66%, 49%);
+    background: #1B8383;
     color: #fff;
     padding: 0.5rem 1.25rem;
     border-radius: 3rem;
