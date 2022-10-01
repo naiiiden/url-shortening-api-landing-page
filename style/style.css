@@ -360,7 +360,7 @@ img {
   color: hsl(260deg, 8%, 14%);
 }
 .statistics .heading_wrapper p {
-  color: hsl(257deg, 7%, 63%);
+  color: #595959;
 }
 .statistics .features_wrapper {
   display: flex;
@@ -382,7 +382,7 @@ img {
   margin-top: 1rem;
 }
 .statistics .feature p {
-  color: hsl(257deg, 7%, 63%);
+  color: #595959;
 }
 .statistics .feature .img_bg {
   background: hsl(257deg, 27%, 26%);
