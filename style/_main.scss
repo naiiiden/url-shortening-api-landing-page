@@ -1,4 +1,4 @@
-main {
+.main {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -38,7 +38,7 @@ main {
 }
 
 @media screen and (min-width: 1024px) {
-    main {
+    .main {
         padding: 3rem 9rem;
         width: 100%;
         flex-direction: row;
@@ -74,7 +74,7 @@ main {
 }
 
 @media screen and (min-width: 1280px) {
-    main {
+    .main {
         .main_text_wrapper {
             h1 {
                 font-size: 3.75rem;
@@ -85,7 +85,7 @@ main {
 }
 
 @media screen and (min-width: 1440px) {
-    main {
+    .main {
         .main_text_wrapper {
             h1 {
                 font-size: 4.35rem;
@@ -100,7 +100,7 @@ main {
 }
 
 @media screen and (min-width: 1600px) {
-    main {
+    .main {
         .main_text_wrapper {
             h1 {
                 font-size: 4.95rem;

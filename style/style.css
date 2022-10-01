@@ -125,30 +125,30 @@ img {
     background: hsl(180deg, 95%, 63%);
   }
 }
-main {
+.main {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
   width: 85%;
   margin: auto;
 }
-main .hero_image {
+.main .hero_image {
   margin: auto;
 }
-main .main_text_wrapper {
+.main .main_text_wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
   text-align: center;
 }
-main .main_text_wrapper h1 {
+.main .main_text_wrapper h1 {
   color: hsl(255deg, 11%, 22%);
 }
-main .main_text_wrapper p {
+.main .main_text_wrapper p {
   color: hsl(257deg, 7%, 63%);
 }
-main .main_text_wrapper .get_started_link {
+.main .main_text_wrapper .get_started_link {
   margin-top: 0.75rem;
   background: hsl(180deg, 66%, 49%);
   padding: 0.75rem 2rem;
@@ -159,14 +159,14 @@ main .main_text_wrapper .get_started_link {
 }
 
 @media screen and (min-width: 1024px) {
-  main {
+  .main {
     padding: 3rem 9rem;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
     overflow-x: hidden;
   }
-  main .hero_image {
+  .main .hero_image {
     width: 55%;
     position: relative;
     left: 10rem;
@@ -175,41 +175,41 @@ main .main_text_wrapper .get_started_link {
         -ms-user-select: none;
             user-select: none;
   }
-  main .main_text_wrapper {
+  .main .main_text_wrapper {
     text-align: start;
     align-items: start;
     width: 45%;
   }
-  main .main_text_wrapper h1 {
+  .main .main_text_wrapper h1 {
     font-size: 2.75rem;
     line-height: 3rem;
   }
-  main .main_text_wrapper .get_started_link:hover {
+  .main .main_text_wrapper .get_started_link:hover {
     background: hsl(180deg, 95%, 63%);
     transition: 0.2s;
   }
 }
 @media screen and (min-width: 1280px) {
-  main .main_text_wrapper h1 {
+  .main .main_text_wrapper h1 {
     font-size: 3.75rem;
     line-height: 4.5rem;
   }
 }
 @media screen and (min-width: 1440px) {
-  main .main_text_wrapper h1 {
+  .main .main_text_wrapper h1 {
     font-size: 4.35rem;
     line-height: 5rem;
   }
-  main .main_text_wrapper p {
+  .main .main_text_wrapper p {
     font-size: 1.25rem;
   }
 }
 @media screen and (min-width: 1600px) {
-  main .main_text_wrapper h1 {
+  .main .main_text_wrapper h1 {
     font-size: 4.95rem;
     line-height: 6rem;
   }
-  main .main_text_wrapper p {
+  .main .main_text_wrapper p {
     font-size: 1.5rem;
   }
 }
